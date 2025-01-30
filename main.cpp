@@ -3,9 +3,11 @@
 
 using namespace std;
 
-void printHi(string name){
-    cout << "Hello " << name;
-}
+// void printHi(string name){
+//     cout << "Hello " << name;
+// }
+
+int add(int num1, int num2);
 
 int main (void){
     
@@ -14,7 +16,12 @@ int main (void){
     // int c ( 5 ); // Direct initialization
     // int d { 5 }; // Uniform initialization
 
-    printHi("Mahdi");
+    // printHi("Mahdi");
+
+    // Definition => Writing main structure
+    // Declaration => Hey Compilerrrr !!!
+
+    cout << add(10, 11);
 
     return 0;
 }
