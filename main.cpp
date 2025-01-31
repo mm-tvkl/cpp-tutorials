@@ -52,5 +52,18 @@ int main (void){
 
     // cout << (a + b == c);
     
+    //! Boolean
+    // bool isExist1{true};
+    // bool isExist2{false};
+
+    // cout << boolalpha;
+    // cin >> boolalpha;
+
+    // cout << isExist1 << '\n';
+    // cout << isExist2 << '\n';
+
+    // true -> 1
+    // false -> 0
+
     return 0;
 }
