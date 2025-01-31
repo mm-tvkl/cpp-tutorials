@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
+#include "add.h"
 
 using namespace std;
 
 // void printHi(string name){
 //     cout << "Hello " << name;
 // }
-
-int add(int num1, int num2);
 
 int main (void){
     
@@ -21,7 +20,9 @@ int main (void){
     // Definition => Writing main structure
     // Declaration => Hey Compilerrrr !!!
 
-    cout << add(10, 11);
+    cout << add(10, 11) << '\n';
+    cout << multipliction(10, 11) << '\n';
+    cout << substract(10, 11) << '\n';
 
     return 0;
 }
