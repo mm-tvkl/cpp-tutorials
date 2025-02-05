@@ -65,5 +65,22 @@ int main (void){
     // true -> 1
     // false -> 0
 
+    // const int x{10};
+    // constexpr double GRAVITY {9.8};
+
+    // int userNumber{};
+    // cout << "Enter a number: ";
+    // cin >> userNumber;
+
+    // if (userNumber % 2 == 0){
+    //     cout << "Your number is even!";
+    // } else {
+    //     cout << "Your number is odd!";
+    // }
+
+    // cout << 5 % -2;
+
+    
+
     return 0;
 }
