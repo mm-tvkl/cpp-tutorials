@@ -3,9 +3,10 @@
 #include <cstdint>
 #include <iomanip>
 #include <cmath>
+#include <bitset>
 // #include "add.h"
 
-using namespace std;
+// using namespace std;
 
 // void printHi(string name){
 //     cout << "Hello " << name;
@@ -82,6 +83,17 @@ int main (void){
     // cout << 5 % -2;
 
     // cout << pow(2,4); // 16
+
+    // std::bitset<8> myBitset {0b00000101};
+    
+    // std::cout << myBitset << '\n';
+    // std::cout << myBitset.test(2) << '\n';
+    
+    // myBitset.set(1);
+    // myBitset.flip(3);
+    // myBitset.reset(2);
+
+    // std::cout << myBitset << '\n';
 
     return 0;
 }
