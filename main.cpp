@@ -2,6 +2,7 @@
 #include <string>
 #include <cstdint>
 #include <iomanip>
+#include <cmath>
 // #include "add.h"
 
 using namespace std;
@@ -80,7 +81,7 @@ int main (void){
 
     // cout << 5 % -2;
 
-    
+    // cout << pow(2,4); // 16
 
     return 0;
 }
