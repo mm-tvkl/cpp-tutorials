@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include <cstdint>
+#include <cstdint> // uint_8 , ...
 #include <iomanip>
 #include <cmath>
-#include <bitset>
+#include <bitset> // for bitset
 // #include "add.h"
 
 // using namespace std;
@@ -94,6 +94,44 @@ int main (void){
     // myBitset.reset(2);
 
     // std::cout << myBitset << '\n';
+
+    //! Bit masks
+
+    // constexpr std::bitset<8> mask0 {0b0000'0001};
+    // constexpr std::bitset<8> mask1 {0b0000'0010};
+    // constexpr std::bitset<8> mask2 {0b0000'0100};
+    // constexpr std::bitset<8> mask3 {0b0000'1000};
+    // constexpr std::bitset<8> mask4 {0b0001'0000};
+    // constexpr std::bitset<8> mask5 {0b0010'0000};
+    // constexpr std::bitset<8> mask6 {0b0100'0000};
+    // constexpr std::bitset<8> mask7 {0b1000'0000};
+
+    // std::bitset<8> flag {0b0000'0101};
+
+    //* .test()
+    // std::cout << "Bit 1: " << ((flag & mask0) ? "ON\n" : "OFF\n");
+    // std::cout << "Bit 2: " << ((flag & mask1) ? "ON\n" : "OFF\n");
+    // std::cout << "Bit 3: " << ((flag & mask2) ? "ON\n" : "OFF\n");
+    // std::cout << "Bit 4: " << ((flag & mask3) ? "ON\n" : "OFF\n");
+
+    //* .set()
+    // std::cout << "Bit 2 before: " << ((flag & mask1) ? "ON\n" : "OFF\n");
+    // flag |= mask1;
+    // std:: cout << flag;
+    // std::cout << "Bit 2 after: " << ((flag & mask1) ? "ON\n" : "OFF\n");
+
+    //* .reset()
+    // flag |= mask4;
+    // std::cout << "Bit 5 before: " << ((flag & mask4) ? "ON\n" : "OFF\n");
+    // flag &= ~mask4;
+    // std::cout << "Bit 5 after: " << ((flag & mask4) ? "ON\n" : "OFF\n");
+
+    //* .flip()
+    // std::cout << "Bit 5 step1: " << ((flag & mask4) ? "ON\n" : "OFF\n");
+    // flag ^= mask4;
+    // std::cout << "Bit 5 step2: " << ((flag & mask4) ? "ON\n" : "OFF\n");
+    // flag ^= mask4;
+    // std::cout << "Bit 5 step3: " << ((flag & mask4) ? "ON\n" : "OFF\n");
 
     return 0;
 }
