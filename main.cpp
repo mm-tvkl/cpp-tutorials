@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <cmath>
 #include <bitset> // for bitset
+#include <random>
 // #include "add.h"
 
 // using namespace std;
@@ -132,6 +133,25 @@ int main (void){
     // std::cout << "Bit 5 step2: " << ((flag & mask4) ? "ON\n" : "OFF\n");
     // flag ^= mask4;
     // std::cout << "Bit 5 step3: " << ((flag & mask4) ? "ON\n" : "OFF\n");
+
+    //! Control Flow
+    // 1- Coditional statement
+    // 2- Jumps
+    // 3- Function calls
+    // 4- Loops
+    // 5- Hults
+    // 6- Ecceptions
+
+    // std::mt19937 mt;
+    // std::uniform_int_distribution die6 {1, 6};
+
+    // for(int i{0} ; i < 100 ; i++){
+        
+    //     std::cout << die6(mt) << '\t';
+    //     if(i % 10 == 0){
+    //         std::cout << '\n';
+    //     }
+    // }
 
     return 0;
 }
