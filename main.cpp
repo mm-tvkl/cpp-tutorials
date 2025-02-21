@@ -5,6 +5,7 @@
 #include <cmath>
 #include <bitset> // for bitset
 #include <random>
+#include <iterator>
 // #include "add.h"
 
 // using namespace std;
@@ -152,6 +153,20 @@ int main (void){
     //         std::cout << '\n';
     //     }
     // }
+
+    // int scores[5]{15, 2, 14, 19, 9};
+
+    // int numberOfStudent { static_cast<int>(std::size(scores)) };
+
+    // int biggestScore{};
+
+    // for (int i{0}; i < numberOfStudent; i++){
+    //     if(biggestScore <= scores[i]){
+    //         biggestScore = scores[i];
+    //     }
+    // }
+
+    // std::cout << "The score of rank 1 is: " << biggestScore;
 
     return 0;
 }
